@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
+import City from './containers/City.jsx'
 
 class App extends Component {
   render() {
     return (
-      <div>Hello!</div>
+      <City />
     )
   }
 }
